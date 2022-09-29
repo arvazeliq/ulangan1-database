@@ -1,0 +1,1 @@
+create database arvazeliqpradyatma_RPL_03;
