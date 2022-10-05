@@ -22,8 +22,7 @@ select m.nama_mapel, n.nilai
 from siswa s join nilai n join mapel m
 on s.nis = n.nis and n.kode_mapel = m.kode_mapel
 where s.nama = "Ana Putri"
-order by m.nama_mapel
-;
+order by m.nama_mapel;
 
 -- daftar nama siswa yang diajar siti kurniawan
 select s.nis, s.nama, k.nama_kelas
